@@ -9,10 +9,20 @@
 /* Begin PBXBuildFile section */
 		E9C031C01DD72E0E00D6320A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031BF1DD72E0E00D6320A /* main.m */; };
 		E9C031C31DD72E0E00D6320A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031C21DD72E0E00D6320A /* AppDelegate.m */; };
-		E9C031C61DD72E0E00D6320A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031C51DD72E0E00D6320A /* ViewController.m */; };
-		E9C031C91DD72E0E00D6320A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C031C71DD72E0E00D6320A /* Main.storyboard */; };
 		E9C031CB1DD72E0E00D6320A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C031CA1DD72E0E00D6320A /* Assets.xcassets */; };
 		E9C031CE1DD72E0E00D6320A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C031CC1DD72E0E00D6320A /* LaunchScreen.storyboard */; };
+		E9C031D71DD72E7D00D6320A /* LKDeveloperListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031D61DD72E7D00D6320A /* LKDeveloperListTableViewController.m */; };
+		E9C031DA1DD72E8D00D6320A /* LKSkillListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031D91DD72E8D00D6320A /* LKSkillListTableViewController.m */; };
+		E9C031DD1DD72EA100D6320A /* LKLocationListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031DC1DD72EA100D6320A /* LKLocationListTableViewController.m */; };
+		E9C031E71DD72F7700D6320A /* LKDeveloperDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031E61DD72F7700D6320A /* LKDeveloperDetailTableViewController.m */; };
+		E9C031EB1DD72FEA00D6320A /* LKEditTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031E91DD72FEA00D6320A /* LKEditTextTableViewCell.m */; };
+		E9C031EC1DD72FEA00D6320A /* LKEditTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C031EA1DD72FEA00D6320A /* LKEditTextTableViewCell.xib */; };
+		E9C031F01DD731A900D6320A /* LKSkillDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031EF1DD731A900D6320A /* LKSkillDetailTableViewController.m */; };
+		E9C031F31DD731BB00D6320A /* LKLocationDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031F21DD731BB00D6320A /* LKLocationDetailTableViewController.m */; };
+		E9C031F61DD7347E00D6320A /* LKDeveloperSetSkillTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031F51DD7347E00D6320A /* LKDeveloperSetSkillTableViewController.m */; };
+		E9C031F91DD7348E00D6320A /* LKDeveloperSetLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031F81DD7348E00D6320A /* LKDeveloperSetLocationTableViewController.m */; };
+		E9C031FD1DD737CB00D6320A /* LKRandomDeveloperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C031FB1DD737CB00D6320A /* LKRandomDeveloperViewController.m */; };
+		E9C031FE1DD737CB00D6320A /* LKRandomDeveloperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C031FC1DD737CB00D6320A /* LKRandomDeveloperViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,31 @@
 		E9C031BF1DD72E0E00D6320A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9C031C11DD72E0E00D6320A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9C031C21DD72E0E00D6320A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E9C031C41DD72E0E00D6320A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E9C031C51DD72E0E00D6320A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E9C031C81DD72E0E00D6320A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9C031CA1DD72E0E00D6320A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9C031CD1DD72E0E00D6320A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9C031CF1DD72E0E00D6320A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C031D51DD72E7D00D6320A /* LKDeveloperListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDeveloperListTableViewController.h; sourceTree = "<group>"; };
+		E9C031D61DD72E7D00D6320A /* LKDeveloperListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDeveloperListTableViewController.m; sourceTree = "<group>"; };
+		E9C031D81DD72E8D00D6320A /* LKSkillListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSkillListTableViewController.h; sourceTree = "<group>"; };
+		E9C031D91DD72E8D00D6320A /* LKSkillListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSkillListTableViewController.m; sourceTree = "<group>"; };
+		E9C031DB1DD72EA100D6320A /* LKLocationListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLocationListTableViewController.h; sourceTree = "<group>"; };
+		E9C031DC1DD72EA100D6320A /* LKLocationListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLocationListTableViewController.m; sourceTree = "<group>"; };
+		E9C031E51DD72F7700D6320A /* LKDeveloperDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDeveloperDetailTableViewController.h; sourceTree = "<group>"; };
+		E9C031E61DD72F7700D6320A /* LKDeveloperDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDeveloperDetailTableViewController.m; sourceTree = "<group>"; };
+		E9C031E81DD72FEA00D6320A /* LKEditTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKEditTextTableViewCell.h; path = CoreDataPresentation/LKEditTextTableViewCell.h; sourceTree = "<group>"; };
+		E9C031E91DD72FEA00D6320A /* LKEditTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKEditTextTableViewCell.m; path = CoreDataPresentation/LKEditTextTableViewCell.m; sourceTree = "<group>"; };
+		E9C031EA1DD72FEA00D6320A /* LKEditTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LKEditTextTableViewCell.xib; path = CoreDataPresentation/LKEditTextTableViewCell.xib; sourceTree = "<group>"; };
+		E9C031EE1DD731A900D6320A /* LKSkillDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSkillDetailTableViewController.h; sourceTree = "<group>"; };
+		E9C031EF1DD731A900D6320A /* LKSkillDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSkillDetailTableViewController.m; sourceTree = "<group>"; };
+		E9C031F11DD731BB00D6320A /* LKLocationDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLocationDetailTableViewController.h; sourceTree = "<group>"; };
+		E9C031F21DD731BB00D6320A /* LKLocationDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLocationDetailTableViewController.m; sourceTree = "<group>"; };
+		E9C031F41DD7347E00D6320A /* LKDeveloperSetSkillTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDeveloperSetSkillTableViewController.h; sourceTree = "<group>"; };
+		E9C031F51DD7347E00D6320A /* LKDeveloperSetSkillTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDeveloperSetSkillTableViewController.m; sourceTree = "<group>"; };
+		E9C031F71DD7348E00D6320A /* LKDeveloperSetLocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDeveloperSetLocationTableViewController.h; sourceTree = "<group>"; };
+		E9C031F81DD7348E00D6320A /* LKDeveloperSetLocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDeveloperSetLocationTableViewController.m; sourceTree = "<group>"; };
+		E9C031FA1DD737CB00D6320A /* LKRandomDeveloperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKRandomDeveloperViewController.h; path = ../LKRandomDeveloperViewController.h; sourceTree = "<group>"; };
+		E9C031FB1DD737CB00D6320A /* LKRandomDeveloperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKRandomDeveloperViewController.m; path = ../LKRandomDeveloperViewController.m; sourceTree = "<group>"; };
+		E9C031FC1DD737CB00D6320A /* LKRandomDeveloperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LKRandomDeveloperViewController.xib; path = ../LKRandomDeveloperViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +89,11 @@
 			children = (
 				E9C031C11DD72E0E00D6320A /* AppDelegate.h */,
 				E9C031C21DD72E0E00D6320A /* AppDelegate.m */,
-				E9C031C41DD72E0E00D6320A /* ViewController.h */,
-				E9C031C51DD72E0E00D6320A /* ViewController.m */,
-				E9C031C71DD72E0E00D6320A /* Main.storyboard */,
+				E9C031E11DD72EC700D6320A /* Developer VC */,
+				E9C031E21DD72EDB00D6320A /* Skill VC */,
+				E9C031E31DD72EE400D6320A /* Location VC */,
+				E9C031E41DD72EEF00D6320A /* Random VC */,
+				E9C031ED1DD72FF000D6320A /* Table Cells */,
 				E9C031CA1DD72E0E00D6320A /* Assets.xcassets */,
 				E9C031CC1DD72E0E00D6320A /* LaunchScreen.storyboard */,
 				E9C031CF1DD72E0E00D6320A /* Info.plist */,
@@ -77,6 +108,64 @@
 				E9C031BF1DD72E0E00D6320A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9C031E11DD72EC700D6320A /* Developer VC */ = {
+			isa = PBXGroup;
+			children = (
+				E9C031D51DD72E7D00D6320A /* LKDeveloperListTableViewController.h */,
+				E9C031D61DD72E7D00D6320A /* LKDeveloperListTableViewController.m */,
+				E9C031E51DD72F7700D6320A /* LKDeveloperDetailTableViewController.h */,
+				E9C031E61DD72F7700D6320A /* LKDeveloperDetailTableViewController.m */,
+				E9C031F41DD7347E00D6320A /* LKDeveloperSetSkillTableViewController.h */,
+				E9C031F51DD7347E00D6320A /* LKDeveloperSetSkillTableViewController.m */,
+				E9C031F71DD7348E00D6320A /* LKDeveloperSetLocationTableViewController.h */,
+				E9C031F81DD7348E00D6320A /* LKDeveloperSetLocationTableViewController.m */,
+			);
+			name = "Developer VC";
+			sourceTree = "<group>";
+		};
+		E9C031E21DD72EDB00D6320A /* Skill VC */ = {
+			isa = PBXGroup;
+			children = (
+				E9C031D81DD72E8D00D6320A /* LKSkillListTableViewController.h */,
+				E9C031D91DD72E8D00D6320A /* LKSkillListTableViewController.m */,
+				E9C031EE1DD731A900D6320A /* LKSkillDetailTableViewController.h */,
+				E9C031EF1DD731A900D6320A /* LKSkillDetailTableViewController.m */,
+			);
+			name = "Skill VC";
+			sourceTree = "<group>";
+		};
+		E9C031E31DD72EE400D6320A /* Location VC */ = {
+			isa = PBXGroup;
+			children = (
+				E9C031DB1DD72EA100D6320A /* LKLocationListTableViewController.h */,
+				E9C031DC1DD72EA100D6320A /* LKLocationListTableViewController.m */,
+				E9C031F11DD731BB00D6320A /* LKLocationDetailTableViewController.h */,
+				E9C031F21DD731BB00D6320A /* LKLocationDetailTableViewController.m */,
+			);
+			name = "Location VC";
+			sourceTree = "<group>";
+		};
+		E9C031E41DD72EEF00D6320A /* Random VC */ = {
+			isa = PBXGroup;
+			children = (
+				E9C031FA1DD737CB00D6320A /* LKRandomDeveloperViewController.h */,
+				E9C031FB1DD737CB00D6320A /* LKRandomDeveloperViewController.m */,
+				E9C031FC1DD737CB00D6320A /* LKRandomDeveloperViewController.xib */,
+			);
+			name = "Random VC";
+			sourceTree = "<group>";
+		};
+		E9C031ED1DD72FF000D6320A /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E9C031E81DD72FEA00D6320A /* LKEditTextTableViewCell.h */,
+				E9C031E91DD72FEA00D6320A /* LKEditTextTableViewCell.m */,
+				E9C031EA1DD72FEA00D6320A /* LKEditTextTableViewCell.xib */,
+			);
+			name = "Table Cells";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +227,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C031FE1DD737CB00D6320A /* LKRandomDeveloperViewController.xib in Resources */,
 				E9C031CE1DD72E0E00D6320A /* LaunchScreen.storyboard in Resources */,
+				E9C031EC1DD72FEA00D6320A /* LKEditTextTableViewCell.xib in Resources */,
 				E9C031CB1DD72E0E00D6320A /* Assets.xcassets in Resources */,
-				E9C031C91DD72E0E00D6320A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,23 +241,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C031C61DD72E0E00D6320A /* ViewController.m in Sources */,
+				E9C031E71DD72F7700D6320A /* LKDeveloperDetailTableViewController.m in Sources */,
+				E9C031F61DD7347E00D6320A /* LKDeveloperSetSkillTableViewController.m in Sources */,
+				E9C031DA1DD72E8D00D6320A /* LKSkillListTableViewController.m in Sources */,
 				E9C031C31DD72E0E00D6320A /* AppDelegate.m in Sources */,
+				E9C031F01DD731A900D6320A /* LKSkillDetailTableViewController.m in Sources */,
+				E9C031DD1DD72EA100D6320A /* LKLocationListTableViewController.m in Sources */,
+				E9C031F91DD7348E00D6320A /* LKDeveloperSetLocationTableViewController.m in Sources */,
+				E9C031FD1DD737CB00D6320A /* LKRandomDeveloperViewController.m in Sources */,
+				E9C031EB1DD72FEA00D6320A /* LKEditTextTableViewCell.m in Sources */,
+				E9C031F31DD731BB00D6320A /* LKLocationDetailTableViewController.m in Sources */,
 				E9C031C01DD72E0E00D6320A /* main.m in Sources */,
+				E9C031D71DD72E7D00D6320A /* LKDeveloperListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E9C031C71DD72E0E00D6320A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9C031C81DD72E0E00D6320A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E9C031CC1DD72E0E00D6320A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

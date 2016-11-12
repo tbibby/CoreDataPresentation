@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LKSkillDetailTableViewController.h
 //  CoreDataPresentation
 //
 //  Created by Thomas Bibby on 12/11/2016.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LKSkillDetailTableViewController : UITableViewController <UITextFieldDelegate>
 
 @end
-

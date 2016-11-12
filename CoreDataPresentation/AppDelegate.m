@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "LKDeveloperListTableViewController.h"
+#import "LKSkillListTableViewController.h"
+#import "LKLocationListTableViewController.h"
+#import "LKRandomDeveloperViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    LKDeveloperListTableViewController *dtvc = [[LKDeveloperListTableViewController alloc]init];
+    UINavigationController *devNav = [[UINavigationController alloc]initWithRootViewController:dtvc];
+    
+    [[devNav tabBarItem]setTitle:NSLocalizedString(@"Developers", @"tab bar title")];
+    
+    LKSkillListTableViewController *stvc = [[LKSkillListTableViewController alloc]init];
+    UINavigationController *skillNav = [[UINavigationController alloc]initWithRootViewController:stvc];
+    [[skillNav tabBarItem]setTitle:NSLocalizedString(@"Skills", @"tab bar title")];
+    
+    LKLocationListTableViewController *ltvc = [[LKLocationListTableViewController alloc]init];
+    UINavigationController *locationNav = [[UINavigationController alloc]initWithRootViewController:ltvc];
+    [[locationNav tabBarItem]setTitle:NSLocalizedString(@"Locations", @"tab bar title")];
+    
+    LKRandomDeveloperViewController *randomDevVC = [[LKRandomDeveloperViewController alloc]init];
+    [[randomDevVC tabBarItem]setTitle:NSLocalizedString(@"Random", @"tab bar title")];
+    
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    [tabBarController setViewControllers:[NSArray arrayWithObjects:devNav, skillNav,locationNav,randomDevVC, nil]];
+    [self.window setRootViewController:tabBarController];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
